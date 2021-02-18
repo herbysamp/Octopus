@@ -3,9 +3,9 @@ const Discord = require("discord.js");
 
 module.exports = {
     config: {
-        name: 'delete',
-        description: 'delete this trash!',
-        aliases: ["delete"],
+        name: 'gay',
+        description: 'gay!',
+        aliases: ["gay"],
         usage: '',
         accessableby: "",
     },
@@ -19,9 +19,9 @@ module.exports = {
       format: "png",
     });
 
-    let img = await new DIG.Delete().getImage(avatar);
+    let img = await new DIG.Gay().getImage(avatar);
 
-    let attach = new Discord.MessageAttachment(img, "delete.png");
+    let attach = new Discord.MessageAttachment(img, "speed.png");
     m.delete({ timeout: 5000 });
     message.channel.send(attach);
   },
