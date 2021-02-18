@@ -4,8 +4,8 @@ const neko = new client();
 
 module.exports = {
     config: {
-        name: '2danal',
-        description: 'anime anal sex images',
+        name: '2dboobs',
+        description: 'anime boobs images',
         aliases: [""],
         usage: '',
         accessableby: "",
@@ -26,16 +26,16 @@ module.exports = {
   }
 
         async function work() {
-        let owo = (await neko.nsfw.anal());
+        let owo = (await neko.nsfw.boobs());
 
-        const anal = new Discord.MessageEmbed()
-        .setTitle("2D Anal Gif")
+        const boobs = new Discord.MessageEmbed()
+        .setTitle("2D Boobs Gif")
         .setImage(owo.url)
         .setThumbnail(client.user.displayAvatarURL())
         .setFooter(client.user.username, client.user.displayAvatarURL())
         .setColor(`#FF0000`)
         .setURL(owo.url);
-        message.channel.send(anal);
+        message.channel.send(boobs);
 
 }
 
